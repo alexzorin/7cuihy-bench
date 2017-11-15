@@ -32,7 +32,7 @@ $ node node.js
 Sort the data x 183 ops/sec ±0.37% (82 runs sampled)
 ```
 
-### Interpretation
+## Interpretation
 Unsurprisingly, the results are extremely similar for float64 because it is very trivial code for both Go and Node to optimise.
 
 Using only integers speeds it up by a significant factor, but is unlikely to be a bottleneck ...
